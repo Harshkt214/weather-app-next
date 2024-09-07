@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next JS Based Weather App
 
-## Getting Started
+## Features
 
-First, run the development server:
+1. **Show Real-time Weather**: Display current weather conditions, including temperature, humidity, wind speed, and weather descriptions, updated in real-time.
+2. **Powered by OpenWeather.org**: Utilize the OpenWeather API to fetch accurate and up-to-date weather data.
+3. **Get Weather of Any City**: Allow users to search for and view the weather in any city worldwide.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Would you like more detailed descriptions or additional features for your app?
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Follow these steps to set up the project on your local machine:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Clone the repository:**
 
-## Learn More
+   ```bash
+   git clone <repository-url>
+   cd <repository-directory>
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. **Install dependencies:**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   pnpm install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. **Set up environment variables:**
 
-## Deploy on Vercel
+   Create a `.env.local` file in the root of the project.
+   Add the following key:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```env
+   WEATHER_API_KEY=your_openweather_api_key
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   You can get your API key from [OpenWeather](https://openweathermap.org/).
